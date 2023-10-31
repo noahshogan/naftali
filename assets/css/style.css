@@ -30,7 +30,7 @@ a:hover {
   position: relative;
   width: 100%;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   overflow: hidden;
 }
 
@@ -38,7 +38,7 @@ a:hover {
   width: 100%;
   max-width: 600px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -49,12 +49,12 @@ a:hover {
   right: 0;
   bottom: 0;
   pointer-events: none;
-  border-radius: 100px;
+  border-radius: 10px;
   background: linear-gradient(to right,
-  rgba(255, 255, 255,0.3) 0%,
-  rgba(255, 255, 255, 0.3) 25%,
-  rgba(255, 255, 255, 0.3) 75%,
-  rgba(255, 255, 255, 0.3) 100%);
+  rgba(255, 255, 255,0.8) 0%,
+  rgba(255, 255, 255, 0.2) 25%,
+  rgba(255, 255, 255, 0) 75%,
+  rgba(255, 255, 255, 1) 100%);
 }
 
 
